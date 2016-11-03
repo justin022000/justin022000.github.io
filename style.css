@@ -4,11 +4,8 @@
 font-family: Helvetica;
 }
 
-<!-- Included on all pages. -->
-
 .navigator{
 font-family: Helvetica, sans-serif;
-font-color: #FFFFFF;
 background-color: rgb(255, 137, 40);
 float: right;
 width: 200px;
@@ -25,17 +22,13 @@ margin-top: -3em;
 html, body, #container { height: 100%; }
 body > #container { height: auto; min-height: 100%; }
 
-<!-- Homepage. -->
-
 .welcome{
 position: relative;
 text-align: Center;
-font-color: Red;
 font-size: 1.7em;
 background-color: rgba(255, 137, 40, 0.6);
 margin-down: 50px;
 float: left;
-text-transform: uppercase;
 }
 
 .info{
@@ -44,8 +37,6 @@ position: absolute;
 top: 450px;
 background-color: rgba(255, 137, 40, 0.6);
 }
-
-<!-- Snel geld verdienen -->
 
 .geldverdienen{
 background-color: rgba(255, 137, 40, 0.6);
@@ -85,21 +76,16 @@ text-align: left;
 width: 33.3333%;
 }
 
-<!-- Oppassen -->
-
 .bodyoppas {
 border: 1px solid;
 font-size: 18px;
 top: 55%;
 }
 
-<!-- Contact -->
-
 .wcontact{
 position: relative;
 text-align: Center;
-font-color: Red;
-font-size: 1.7em;
+font-size: 1.2em;
 background-color: rgba(255, 137, 40, 0.6);
 margin-down: 50px;
 float: left;
