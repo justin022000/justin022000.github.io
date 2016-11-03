@@ -1,0 +1,108 @@
+<!DOCTYPE css>
+<style>
+*{
+font-family: Helvetica;
+}
+
+<!-- Included on all pages. -->
+
+.navigator{
+font-family: Helvetica, sans-serif;
+font-color: #FFFFFF;
+background-color: rgb(255, 137, 40);
+float: right;
+width: 200px;
+}
+
+.footer{
+clear: both;
+position: relative;
+z-index: 10;
+height: 3em;
+margin-top: -3em;
+}
+
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+
+<!-- Homepage. -->
+
+.welcome{
+position: relative;
+text-align: Center;
+font-color: Red;
+font-size: 1.7em;
+background-color: rgba(255, 137, 40, 0.6);
+margin-down: 50px;
+float: left;
+text-transform: uppercase;
+}
+
+.info{
+margin-up: 200px;
+position: absolute;
+top: 450px;
+background-color: rgba(255, 137, 40, 0.6);
+}
+
+<!-- Snel geld verdienen -->
+
+.geldverdienen{
+background-color: rgba(255, 137, 40, 0.6);
+}
+
+table {
+height: 40%;
+left: 0%;
+margin: 20px auto;
+overflow-y: scroll;
+position: static;
+width: 100%;
+}
+
+th {
+background: rgb(255,137, 40);
+color: #000;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 100;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+tr {
+background: rgba(255,137, 40, 0.6);
+border-bottom: 1px solid #FFF;
+margin-bottom: 5px;
+}
+
+td, th {
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 18px;
+padding: 20px;
+text-align: left;
+width: 33.3333%;
+}
+
+<!-- Oppassen -->
+
+.bodyoppas {
+border: 1px solid;
+font-size: 18px;
+top: 55%;
+}
+
+<!-- Contact -->
+
+.wcontact{
+position: relative;
+text-align: Center;
+font-color: Red;
+font-size: 1.7em;
+background-color: rgba(255, 137, 40, 0.6);
+margin-down: 50px;
+float: left;
+}
+
+</style>
