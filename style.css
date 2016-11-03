@@ -1,14 +1,9 @@
 <!DOCTYPE css>
 <style>
-*{
-font-family: Helvetica;
-}
-
 <!-- Included on all pages. -->
 
 .navigator{
 font-family: Helvetica, sans-serif;
-font-color: #FFFFFF;
 background-color: rgb(255, 137, 40);
 float: right;
 width: 200px;
