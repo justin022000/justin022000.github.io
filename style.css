@@ -4,9 +4,6 @@
 *{
 font-family: Helvetica;
 }
-=======
-<!-- Included on all pages. -->
->>>>>>> origin/master
 
 .navigator{
 font-family: Helvetica, sans-serif;
@@ -42,7 +39,8 @@ top: 450px;
 background-color: rgba(255, 137, 40, 0.6);
 }
 
-.geldverdienen{
+.geldhead{
+font-size: 1.55em;
 background-color: rgba(255, 137, 40, 0.6);
 }
 
