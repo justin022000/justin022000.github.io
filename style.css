@@ -5,7 +5,14 @@
 font-family: Helvetica;
 }
 
+strong {
+font-size: 1.8;
+}
+
 .navigator{
+position: fixed;
+top: 0;
+right: 0;
 font-family: Helvetica, sans-serif;
 background-color: rgb(255, 137, 40);
 float: right;
@@ -25,14 +32,15 @@ body > #container { height: auto; min-height: 100%; }
 
 .welcome{
 position: relative;
+top: 10%;
 text-align: Center;
-font-size: 1.7em;
-background-color: rgba(255, 137, 40, 0.6);
+font-size: 1.9em;
+background-color: rgba(255, 137, 40, 0.66);
 margin-down: 50px;
-float: left;
 }
 
 .info{
+font-size: 1.4em;
 margin-up: 200px;
 position: absolute;
 top: 450px;
@@ -78,10 +86,19 @@ text-align: left;
 width: 33.3333%;
 }
 
+.woppas{
+position: static;
+text-allign: Center;
+font-size: 1.4em
+background-color: rgba(255, 137, 40, 0.6);
+margin-down: 35px;
+width: 100%;
+}
+
 .bodyoppas {
 border: 1px solid;
 font-size: 18px;
-top: 55%;
+float: right;
 }
 
 .wcontact{
@@ -91,6 +108,12 @@ font-size: 1.2em;
 background-color: rgba(255, 137, 40, 0.6);
 margin-down: 50px;
 float: left;
+}
+
+.wabout{
+text-allign: center;
+font-size: 1.3em
+margin-up 7%;
 }
 
 </style>
