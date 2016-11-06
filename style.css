@@ -5,10 +5,6 @@
 font-family: Helvetica;
 }
 
-strong {
-font-size: 1.8;
-}
-
 .navigator{
 position: fixed;
 top: 0;
@@ -31,7 +27,6 @@ html, body, #container { height: 100%; }
 body > #container { height: auto; min-height: 100%; }
 
 .welcome{
-position: relative;
 top: 10%;
 text-align: Center;
 font-size: 1.9em;
@@ -42,14 +37,17 @@ margin-down: 50px;
 .info{
 font-size: 1.4em;
 margin-up: 200px;
-position: absolute;
-top: 450px;
+top: 35%;
 background-color: rgba(255, 137, 40, 0.6);
 }
 
 .geldhead{
 font-size: 1.55em;
 background-color: rgba(255, 137, 40, 0.6);
+}
+
+#extrageld{
+font-size: 1.4em;
 }
 
 table {
@@ -65,9 +63,9 @@ th {
 background: rgb(255,137, 40);
 color: #000;
 font-family: 'Lato', sans-serif;
-font-size: 16px;
+font-size: 1.7em;
 font-weight: 100;
-letter-spacing: 2px;
+letter-spacing: 0.1em;
 text-transform: uppercase;
 }
 
@@ -86,23 +84,22 @@ text-align: left;
 width: 33.3333%;
 }
 
-.woppas{
-position: static;
+.wbijbaan {
+font-family: serif;
 text-allign: Center;
-font-size: 1.4em
+font-size: 1.45em;
 background-color: rgba(255, 137, 40, 0.6);
 margin-down: 35px;
 width: 100%;
 }
 
-.bodyoppas {
+.bbijbaan {
 border: 1px solid;
-font-size: 18px;
+font-size: 1.25em;
 float: right;
 }
 
 .wcontact{
-position: relative;
 text-align: Center;
 font-size: 1.2em;
 background-color: rgba(255, 137, 40, 0.6);
