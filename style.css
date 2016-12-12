@@ -142,6 +142,20 @@ position: static;
 float: right;
 }
 
+#picfout {
+max-width: 2em;
+max-height: 2em;
+}
+
+#picgoed {
+max-width: 2em;
+max-height: 2em;
+}
+
+#picyt {
+float: right;
+]
+
 /* SNEL GELD VERDIENEN */
 
 .hgeld {
@@ -212,7 +226,8 @@ position: Center;
 
 .wbedrijf {
 background-color: rgba(255, 138, 40, 0.6);
-Width: 85%;
+Width: 100%;
+text-align: Center;
 font-size: 1.4em;
 font-family: 'helvetica', sans-serif;
 }
