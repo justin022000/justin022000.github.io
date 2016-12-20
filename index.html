@@ -30,8 +30,60 @@ Wil jij een bedrijf beginnen? Heb jij wat hulp nodig? Geen probleem! Wij helpen 
 </ul>
 </div>
 
-<div class="info">
+<div class="slideshow-container">
+<h2> Awesome Youtube kanalen! Check ze zeker even uit! </h2>
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="challengevlogbanner.png" style="width:100%">
+    <div class="text"> <a href="https://www.youtube.com/channel/UC6BXTi7Wmlg11ARzS7M0gug"> Challenge Vlog </a> </div>
+  </div>
 
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="clonnygamesbanner.png" style="width:100%">
+    <div class="text"> <a href="https://www.youtube.com/channel/UCPex89Pgo06t4VSArO53y_Q"> Clonny Games </a> </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="jomagamingbanner.png" style="width:100%">
+    <div class="text"> <a href="https://www.youtube.com/channel/UC7mmRsdILCLlAaN5BeMwp1Q"> Jomagaming </a> </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<div class="info">
 <h2>
 Hoe kunnen wij jou helpen?
 </h2>
