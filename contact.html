@@ -35,24 +35,45 @@ Je kunt op veel verschillende manieren contact met ons opnemen. Wij zullen probe
 <h2> Vul hier jouw naam en opmerking/klacht/vraag in. </h2>
 <img id="piccontact" src="contact.jpg" alt="neem contact met ons op!"/>
 
-<form action="contact.php" method="post" enctype="text/plain">
-<fieldset>
-<p>
-<label> Naam: </label>
-<input type="Text" name="naam"/>
-</p>
+<form name="contactform" method="post" action="contact.php">
+ 
+<table width="450px">
+<tr>
+<td valign="top">
+<label for="name"> Naam *</label>
+</td>
 
-<p>
-<label> E-mail adres </label>
-<input type="Text" name="email"/>
-</p>
+<td valign="top">
+<input  type="text" name="name" maxlength="50" size="30">
+</td>
+</tr>
+ 
+<tr>
+<td valign="top">
+<label for="email">Email *</label>
+</td>
+ 
+<td valign="top">
+<input  type="text" name="email" maxlength="80" size="30">
+</td> 
+</tr>
+ 
+<tr>
+<td valign="top">
+<label for="comments"> Opmerking *</label>
+</td>
 
-<p>
-<label> Vraag/opmerking/klacht. </label>
-<textarea name="opmerking" rows="6" cols="150"> </textarea>
-<input name="message" type="submit" value="Verstuur"/>
-</p>
-</fieldset>
+<td valign="top">
+<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+</td>
+</tr>
+ 
+<tr>
+<td colspan="2" style="text-align:center">
+<input type="submit" value="Submit">
+</td>
+</tr>
+</table>
 </form>
 </div>
 
