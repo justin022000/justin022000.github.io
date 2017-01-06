@@ -25,6 +25,8 @@ font-size: 1.6em;
 background-color: rgb(255, 137, 40);
 float: right;
 max-height: 5em;
+min-width: 75%;
+max-width: 80%;
 padding: 0.5em;
 }
 
